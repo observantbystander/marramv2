@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marram Investments Corp.</title>
     
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <!-- Tailwind CSS (Framework) -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -25,19 +23,16 @@
         }
     </script>
 
-    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body class="bg-white font-sans text-zinc-900 selection:bg-zinc-200">
 
-    <!-- Subtle Colored Textures -->
     <div class="fixed inset-0 pointer-events-none z-[-3] overflow-hidden">
         <div class="absolute top-[-10%] right-[-5%] w-[600px] h-[600px] rounded-full bg-amber-600/5 blur-[120px]"></div>
         <div class="absolute bottom-[20%] left-[-10%] w-[500px] h-[500px] rounded-full bg-blue-800/5 blur-[120px]"></div>
         <div class="absolute top-[40%] left-[60%] w-[400px] h-[400px] rounded-full bg-emerald-700/5 blur-[120px]"></div>
     </div>
 
-    <!-- Navigation -->
     <nav id="navbar" class="fixed w-full z-50 transition-all duration-500 border-b bg-white border-transparent py-6">
         <div class="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
             <div class="flex items-center">
@@ -50,44 +45,39 @@
                 </a>
             </div>
 
-            <!-- Desktop Nav -->
             <div class="hidden lg:flex items-center gap-10">
                 <a href="#firm" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 hover:text-zinc-900 transition-colors">The Firm</a>
                 <a href="#strategy" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 hover:text-zinc-900 transition-colors">Strategy</a>
                 <a href="#advisory" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 hover:text-zinc-900 transition-colors">Advisory</a>
                 <a href="#portfolio" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 hover:text-zinc-900 transition-colors">Track Record</a>
                 
-                <a href="https://www.marramcorp.com/contact" target="_top" class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] border border-zinc-900 text-zinc-900 px-5 py-2.5 hover:bg-zinc-900 hover:text-white transition-all">
+                <a href="https://calendar.app.google/AvDhjcsNkFRAWmoy9" target="_blank" class="flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] border border-zinc-900 text-zinc-900 px-5 py-2.5 hover:bg-zinc-900 hover:text-white transition-all">
                     <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
                     <span>Schedule Call</span>
                 </a>
             </div>
 
-            <!-- Mobile Toggle -->
             <button id="mobile-menu-btn" class="lg:hidden text-zinc-900">
                 <i data-lucide="menu" id="menu-icon" stroke-width="1" class="w-6 h-6"></i>
             </button>
         </div>
 
-        <!-- Mobile Menu Overlay -->
         <div id="mobile-menu" class="hidden absolute top-[100%] left-0 w-full bg-white z-40 px-6 py-12 border-t border-zinc-100 flex flex-col shadow-xl">
             <div class="flex flex-col gap-8">
                 <a href="#firm" class="mobile-link text-2xl font-serif text-zinc-900 border-b border-zinc-100 pb-4">The Firm</a>
                 <a href="#strategy" class="mobile-link text-2xl font-serif text-zinc-900 border-b border-zinc-100 pb-4">Strategy</a>
                 <a href="#advisory" class="mobile-link text-2xl font-serif text-zinc-900 border-b border-zinc-100 pb-4">Advisory</a>
                 <a href="#portfolio" class="mobile-link text-2xl font-serif text-zinc-900 border-b border-zinc-100 pb-4">Track Record</a>
-                <a href="https://www.marramcorp.com/contact" target="_top" class="mt-8 text-xs font-bold uppercase tracking-widest text-zinc-900">
+                <a href="https://calendar.app.google/AvDhjcsNkFRAWmoy9" target="_blank" class="mt-8 text-xs font-bold uppercase tracking-widest text-zinc-900">
                     Schedule Call &rarr;
                 </a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="relative pt-40 pb-16 md:pt-52 md:pb-24 px-6 md:px-12 max-w-7xl mx-auto flex flex-col justify-center min-h-[75vh]">
         <div class="absolute inset-0 z-[-2] bg-[linear-gradient(to_right,#f4f4f5_1px,transparent_1px),linear-gradient(to_bottom,#f4f4f5_1px,transparent_1px)] bg-[size:48px_48px] [mask-image:linear-gradient(to_bottom,white,transparent)]"></div>
         
-        <!-- Vancouver Birds Eye Background Overlay -->
         <div class="absolute inset-0 z-[-1] opacity-[0.07] pointer-events-none mix-blend-multiply overflow-hidden">
            <img src="Vancouver - BC Rail Birds eye.jpg" alt="Vancouver Topography" class="w-full h-full object-cover object-center grayscale" />
         </div>
@@ -105,14 +95,13 @@
                     Explore Our Mandate
                 </a>
                 <span class="hidden sm:block text-zinc-300">|</span>
-                <a href="https://www.marramcorp.com/contact" target="_top" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 hover:text-zinc-900 transition-colors">
+                <a href="https://calendar.app.google/AvDhjcsNkFRAWmoy9" target="_blank" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 hover:text-zinc-900 transition-colors">
                     Schedule Call &rarr;
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- The Firm -->
     <section id="firm" class="relative pt-16 md:pt-24 pb-16 md:pb-20 bg-[#fafafa]/80 backdrop-blur-sm border-t border-zinc-200 overflow-hidden">
         <div class="absolute top-0 right-[15%] w-px h-full bg-gradient-to-b from-zinc-200 to-transparent"></div>
         
@@ -139,7 +128,6 @@
         </div>
     </section>
 
-    <!-- Strategy & Operations -->
     <section id="strategy" class="pt-12 md:pt-16 pb-16 md:pb-20 bg-white/80 backdrop-blur-sm relative">
         <div class="max-w-7xl mx-auto px-6 md:px-12">
             
@@ -149,10 +137,8 @@
                 <div class="w-16 h-px bg-zinc-300 mx-auto mt-8"></div>
             </div>
 
-            <!-- Dual Mandate Grid -->
             <div class="grid md:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200 mb-16 md:mb-20 shadow-sm">
                 
-                <!-- Advisory -->
                 <div class="bg-white p-10 md:p-16 hover:bg-zinc-50 transition-all duration-300 group relative overflow-hidden flex flex-col">
                     <div class="absolute top-0 left-0 w-full h-1 bg-zinc-900 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                     <div class="mb-12 flex justify-between items-start">
@@ -168,12 +154,11 @@
                         <li class="flex items-center gap-3"><span class="w-1 h-1 bg-zinc-900 rounded-full shrink-0"></span> <span>Pre-acquisition due diligence</span></li>
                         <li class="flex items-center gap-3"><span class="w-1 h-1 bg-zinc-900 rounded-full shrink-0"></span> <span>Financial underwriting and transaction support</span></li>
                     </ul>
-                    <a href="https://www.marramcorp.com/contact" target="_top" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-900 border-b border-zinc-900 pb-1 self-start">
+                    <a href="https://calendar.app.google/AvDhjcsNkFRAWmoy9" target="_blank" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-900 border-b border-zinc-900 pb-1 self-start">
                         Request Advisory Deck
                     </a>
                 </div>
 
-                <!-- Principal Investment -->
                 <div class="bg-white p-10 md:p-16 hover:bg-zinc-50 transition-all duration-300 group relative overflow-hidden flex flex-col">
                     <div class="absolute top-0 left-0 w-full h-1 bg-zinc-900 transform -translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                     <div class="mb-12 flex justify-between items-start">
@@ -189,13 +174,12 @@
                         <li class="flex items-center gap-3"><span class="w-1 h-1 bg-zinc-900 rounded-full shrink-0"></span> <span>Tactical value-add execution</span></li>
                         <li class="flex items-center gap-3"><span class="w-1 h-1 bg-zinc-900 rounded-full shrink-0"></span> <span>Aligned capital and venture formation</span></li>
                     </ul>
-                    <a href="#portfolio" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-900 border-b border-zinc-900 pb-1 self-start">
+                    <a href="https://calendar.app.google/AvDhjcsNkFRAWmoy9" target="_blank" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-900 border-b border-zinc-900 pb-1 self-start">
                         View Track Record
                     </a>
                 </div>
             </div>
 
-            <!-- Strategy Focus -->
             <div class="border-t border-zinc-200 pt-12 md:pt-16">
                 <h4 class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-400 mb-10 block text-center">Core Investment Pillars</h4>
                 
@@ -243,12 +227,10 @@
         </div>
     </section>
 
-    <!-- Partner-Focused Advisory Section -->
     <section id="advisory" class="relative pt-16 md:pt-24 pb-16 md:pb-24 bg-[#fafafa]/90 backdrop-blur-sm border-t border-zinc-200">
         <div class="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
             <div class="grid lg:grid-cols-12 gap-12 lg:gap-16 items-start">
                 
-                <!-- Left Column: Intro -->
                 <div class="lg:col-span-4 lg:sticky lg:top-32">
                     <span class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-400 mb-4 block">Third-Party Services</span>
                     <h3 class="text-3xl md:text-4xl font-serif text-zinc-900 mb-6">
@@ -258,12 +240,11 @@
                     <p class="text-sm text-zinc-600 font-light leading-relaxed text-justify mb-8">
                         <span>Long-term partnerships guide our operations. We provide tailored advisory services to investors, lenders, and owners, leveraging our experience as principal investors.</span>
                     </p>
-                    <a href="https://www.marramcorp.com/contact" target="_top" class="inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] border border-zinc-300 text-zinc-900 px-6 py-3 hover:bg-white transition-all bg-zinc-100">
+                    <a href="https://calendar.app.google/AvDhjcsNkFRAWmoy9" target="_blank" class="inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] border border-zinc-300 text-zinc-900 px-6 py-3 hover:bg-white transition-all bg-zinc-100">
                         Discuss a Mandate &rarr;
                     </a>
                 </div>
 
-                <!-- Right Column: Services Grid -->
                 <div class="lg:col-span-8 grid sm:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200 shadow-sm">
                     
                     <div class="bg-white p-8 md:p-10 hover:bg-zinc-50 transition-colors flex flex-col">
@@ -303,7 +284,6 @@
         </div>
     </section>
 
-    <!-- Track Record Section -->
     <section id="portfolio" class="relative py-16 md:py-20 bg-white/90 backdrop-blur-sm border-y border-zinc-200">
         <div class="absolute inset-0 z-0 bg-[linear-gradient(to_right,#e5e5e5_1px,transparent_1px),linear-gradient(to_bottom,#e5e5e5_1px,transparent_1px)] bg-[size:32px_32px] opacity-40"></div>
         
@@ -313,12 +293,11 @@
                     <span class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-400 mb-4 block">Case Studies</span>
                     <h3 class="text-4xl font-serif text-zinc-900">Track Record</h3>
                 </div>
-                <a href="https://www.marramcorp.com/contact" target="_top" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-900 hover:text-zinc-500 transition-colors">
+                <a href="https://calendar.app.google/AvDhjcsNkFRAWmoy9" target="_blank" class="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-900 hover:text-zinc-500 transition-colors">
                     Discuss Portfolio &rarr;
                 </a>
             </div>
 
-            <!-- Deal Profile Overview -->
             <div class="grid md:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200 mb-12 shadow-sm">
                 <div class="bg-white p-10 md:p-12 flex flex-col justify-center">
                    <h4 class="text-xl font-serif text-zinc-900 mb-3">Target Deal Profile</h4>
@@ -340,10 +319,8 @@
                 </div>
             </div>
 
-            <!-- Detailed Case Studies Grid -->
             <div class="grid md:grid-cols-2 gap-px bg-zinc-200 border border-zinc-200 shadow-sm">
                 
-                <!-- Case 1: CMHC Multifamily Mandate -->
                 <div class="bg-white group flex flex-col">
                     <div class="relative aspect-[16/9] overflow-hidden bg-zinc-100">
                         <img src="image_4568c5.jpg" alt="CMHC Multifamily Mandate" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500" />
@@ -370,7 +347,6 @@
                     </div>
                 </div>
 
-                <!-- Case 2: Advisory -->
                 <div class="bg-white group flex flex-col">
                     <div class="relative aspect-[16/9] overflow-hidden bg-zinc-100">
                         <img src="image_4568ad.jpg" alt="Value-Add Industrial Mandate" class="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500" />
@@ -402,7 +378,6 @@
         </div>
     </section>
 
-    <!-- Footer / Contact -->
     <footer id="contact" class="bg-white py-16 md:py-24 border-t border-zinc-200 relative z-10">
         <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-start md:items-center gap-12">
             <div class="max-w-sm">
@@ -413,11 +388,12 @@
             </div>
 
             <div class="flex flex-col items-start md:items-end gap-6">
-                <a href="https://www.marramcorp.com/contact" target="_top" class="inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] bg-zinc-900 text-white px-8 py-4 hover:bg-zinc-700 transition-all">
+                <a href="https://calendar.app.google/AvDhjcsNkFRAWmoy9" target="_blank" class="inline-flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.2em] bg-zinc-900 text-white px-8 py-4 hover:bg-zinc-700 transition-all">
                     <i data-lucide="calendar" class="w-3.5 h-3.5"></i> <span>Schedule a Call</span>
                 </a>
                 <div class="flex flex-col items-start md:items-end gap-2 text-sm text-zinc-500 font-medium">
-                    <a href="https://www.marramcorp.com/contact" target="_top" class="hover:text-zinc-900 transition-colors">
+                    <span class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-400 mb-1">Contact Us</span>
+                    <a href="mailto:george@marramcorp.com" class="hover:text-zinc-900 transition-colors">
                         george@marramcorp.com
                     </a>
                     <a href="tel:+16043643770" class="hover:text-zinc-900 transition-colors">
@@ -438,7 +414,6 @@
         </div>
     </footer>
 
-    <!-- Scripts for Interactivity -->
     <script>
         // Initialize Icons
         lucide.createIcons();
